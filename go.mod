@@ -5,7 +5,6 @@ go 1.12
 require (
 	github.com/88250/gulu v1.2.1
 	github.com/88250/lute v1.7.3
-	github.com/leimeng-go/pipe v1.9.1 // indirect
 	github.com/PuerkitoBio/goquery v1.8.0
 	github.com/alecthomas/chroma v0.10.0 // indirect
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
