@@ -16,7 +16,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/88250/pipe/model"
+	"github.com/leimeng-go/pipe/model"
 )
 
 const (

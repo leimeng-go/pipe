@@ -11,7 +11,7 @@
 package model
 
 import (
-	"github.com/88250/pipe/util"
+	"github.com/leimeng-go/pipe/util"
 )
 
 // User model.

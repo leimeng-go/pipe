@@ -15,9 +15,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/88250/pipe/model"
-	"github.com/88250/pipe/service"
-	"github.com/88250/pipe/util"
+	"github.com/leimeng-go/pipe/model"
+	"github.com/leimeng-go/pipe/service"
+	"github.com/leimeng-go/pipe/util"
 	"github.com/gin-gonic/gin"
 	"github.com/vinta/pangu"
 )

@@ -17,8 +17,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/88250/pipe/model"
-	"github.com/88250/pipe/util"
+	"github.com/leimeng-go/pipe/model"
+	"github.com/leimeng-go/pipe/util"
 	"github.com/jinzhu/gorm"
 )
 

@@ -22,8 +22,8 @@ import (
 	"time"
 
 	"github.com/88250/gulu"
-	"github.com/88250/pipe/model"
-	"github.com/88250/pipe/util"
+	"github.com/leimeng-go/pipe/model"
+	"github.com/leimeng-go/pipe/util"
 	"github.com/jinzhu/gorm"
 	"github.com/parnurzeal/gorequest"
 )
@@ -522,7 +522,7 @@ func (srv *articleService) UpdateArticle(article *model.Article) (err error) {
 }
 
 func (srv *articleService) IncArticleViewCount(article *model.Article) error {
-	// 浏览计数插件化 https://github.com/88250/pipe/issues/11
+	// 浏览计数插件化 https://github.com/leimeng-go/pipe/issues/11
 
 	//srv.mutex.Lock()
 	//defer srv.mutex.Unlock()

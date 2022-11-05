@@ -24,14 +24,14 @@ import (
 	"time"
 
 	"github.com/88250/gulu"
-	"github.com/88250/pipe/controller"
-	"github.com/88250/pipe/cron"
-	"github.com/88250/pipe/i18n"
-	"github.com/88250/pipe/model"
-	"github.com/88250/pipe/service"
-	"github.com/88250/pipe/theme"
-	"github.com/88250/pipe/util"
 	"github.com/gin-gonic/gin"
+	"github.com/leimeng-go/pipe/controller"
+	"github.com/leimeng-go/pipe/cron"
+	"github.com/leimeng-go/pipe/i18n"
+	"github.com/leimeng-go/pipe/model"
+	"github.com/leimeng-go/pipe/service"
+	"github.com/leimeng-go/pipe/theme"
+	"github.com/leimeng-go/pipe/util"
 )
 
 // Logger

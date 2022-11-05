@@ -56,7 +56,7 @@ const (
 const (
 	SettingBasicFooterDefault           = "<!-- 这里可用于放置备案信息等，支持 Markdown -->"
 	SettingBasicHeaderDefault           = "<!-- 支持 Markdown -->"
-	SettingBasicBasicNoticeBoardDefault = "本博客由 [Pipe](https://github.com/88250/pipe) 强力驱动"
+	SettingBasicBasicNoticeBoardDefault = "本博客由 [Pipe](https://github.com/leimeng-go/pipe) 强力驱动"
 )
 
 // Setting names of category "preference".

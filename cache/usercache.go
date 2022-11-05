@@ -13,7 +13,7 @@ package cache
 import (
 	"time"
 
-	"github.com/88250/pipe/model"
+	"github.com/leimeng-go/pipe/model"
 	"github.com/bluele/gcache"
 )
 

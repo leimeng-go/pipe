@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/88250/pipe/i18n"
-	"github.com/88250/pipe/model"
-	"github.com/88250/pipe/service"
-	"github.com/88250/pipe/util"
+	"github.com/leimeng-go/pipe/i18n"
+	"github.com/leimeng-go/pipe/model"
+	"github.com/leimeng-go/pipe/service"
+	"github.com/leimeng-go/pipe/util"
 	"github.com/dustin/go-humanize"
 	"github.com/gin-gonic/gin"
 )

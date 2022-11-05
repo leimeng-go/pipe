@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/88250/gulu"
-	"github.com/88250/pipe/model"
+	"github.com/leimeng-go/pipe/model"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	_ "github.com/jinzhu/gorm/dialects/postgres"

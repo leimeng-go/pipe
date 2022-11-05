@@ -2,13 +2,13 @@
   "name": "pipe",
   "version": "2.1.0",
   "description": "Pipe theme",
-  "homepage": "https://github.com/88250/pipe",
+  "homepage": "https://github.com/leimeng-go/pipe",
   "repository": {
     "type": "git",
-    "url": "git://github.com/88250/pipe.git"
+    "url": "git://github.com/leimeng-go/pipe.git"
   },
   "bugs": {
-    "url": "https://github.com/88250/pipe/issues"
+    "url": "https://github.com/leimeng-go/pipe/issues"
   },
   "license": "GPLv3",
   "private": true,

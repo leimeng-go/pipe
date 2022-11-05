@@ -54,7 +54,7 @@
       <div class="card__body">
         <a href="https://b3log.org/sym" target="_blank">Symphony</a>、<a
         href="https://b3log.org/solo" target="_blank">Solo</a>、<a
-        href="https://github.com/88250/pipe" target="_blank">Pipe</a>、<a
+        href="https://github.com/leimeng-go/pipe" target="_blank">Pipe</a>、<a
         href="https://github.com/88250/wide" target="_blank">Wide</a>、<a
         href="https://github.com/88250/latke" target="_blank">Latke</a>、<a
         href="https://b3log.org/vditor" target="_blank">Vditor</a>、<a

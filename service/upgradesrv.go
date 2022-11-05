@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/88250/pipe/model"
-	"github.com/88250/pipe/util"
+	"github.com/leimeng-go/pipe/model"
+	"github.com/leimeng-go/pipe/util"
 )
 
 // Upgrade service.
@@ -33,7 +33,7 @@ func (srv *upgradeService) Perform() {
 	}
 	sysVerSetting := Setting.GetSetting(model.SettingCategorySystem, model.SettingNameSystemVer, 1)
 	if nil == sysVerSetting {
-		logger.Fatalf("system state is error, please contact developer: https://github.com/88250/pipe/issues/new")
+		logger.Fatalf("system state is error, please contact developer: https://github.com/leimeng-go/pipe/issues/new")
 	}
 
 	currentVer := sysVerSetting.Value

@@ -14,7 +14,7 @@ package service
 import (
 	"sync"
 
-	"github.com/88250/pipe/model"
+	"github.com/leimeng-go/pipe/model"
 	"github.com/jinzhu/gorm"
 )
 

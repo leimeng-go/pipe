@@ -13,7 +13,7 @@ package model
 import (
 	"html/template"
 
-	"github.com/88250/pipe/util"
+	"github.com/leimeng-go/pipe/util"
 )
 
 // ThemeArticle represents theme article.

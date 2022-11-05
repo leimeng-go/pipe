@@ -15,5 +15,5 @@ const (
 	Version = "2.1.0"
 
 	// UserAgent represents HTTP client user agent.
-	UserAgent = "Pipe/" + Version + "; +https://github.com/88250/pipe"
+	UserAgent = "Pipe/" + Version + "; +https://github.com/leimeng-go/pipe"
 )

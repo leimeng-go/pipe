@@ -13,7 +13,7 @@ package console
 import (
 	"html/template"
 
-	"github.com/88250/pipe/util"
+	"github.com/leimeng-go/pipe/util"
 )
 
 // ConsoleArticle represents console article.

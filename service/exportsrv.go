@@ -14,7 +14,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/88250/pipe/model"
+	"github.com/leimeng-go/pipe/model"
 	"gopkg.in/yaml.v2"
 )
 

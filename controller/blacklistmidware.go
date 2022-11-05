@@ -11,8 +11,8 @@
 package controller
 
 import (
-	"github.com/88250/pipe/cron"
-	"github.com/88250/pipe/util"
+	"github.com/leimeng-go/pipe/cron"
+	"github.com/leimeng-go/pipe/util"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

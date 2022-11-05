@@ -13,7 +13,7 @@ package service
 import (
 	"testing"
 
-	"github.com/88250/pipe/model"
+	"github.com/leimeng-go/pipe/model"
 )
 
 func TestGetAllStatistics(t *testing.T) {

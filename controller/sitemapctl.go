@@ -11,7 +11,7 @@
 package controller
 
 import (
-	"github.com/88250/pipe/service"
+	"github.com/leimeng-go/pipe/service"
 	"github.com/gin-gonic/gin"
 	"github.com/ikeikeikeike/go-sitemap-generator/stm"
 )

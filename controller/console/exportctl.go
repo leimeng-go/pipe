@@ -18,8 +18,8 @@ import (
 	"path/filepath"
 
 	"github.com/88250/gulu"
-	"github.com/88250/pipe/service"
-	"github.com/88250/pipe/util"
+	"github.com/leimeng-go/pipe/service"
+	"github.com/leimeng-go/pipe/util"
 	"github.com/gin-gonic/gin"
 )
 

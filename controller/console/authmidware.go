@@ -14,7 +14,7 @@ import (
 	"net/http"
 
 	"github.com/88250/gulu"
-	"github.com/88250/pipe/util"
+	"github.com/leimeng-go/pipe/util"
 	"github.com/gin-gonic/gin"
 )
 

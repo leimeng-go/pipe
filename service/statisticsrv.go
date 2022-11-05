@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/88250/pipe/model"
+	"github.com/leimeng-go/pipe/model"
 	"github.com/jinzhu/gorm"
 )
 
@@ -67,7 +67,7 @@ func (srv *statisticService) GetStatistics(blogID uint, statisticNames ...string
 }
 
 func (srv *statisticService) IncViewCount(blogID uint64) error {
-	// 浏览计数插件化 https://github.com/88250/pipe/issues/11
+	// 浏览计数插件化 https://github.com/leimeng-go/pipe/issues/11
 
 	//tx := db.Begin()
 	//if err := srv.IncViewCountWithoutTx(tx, blogID); nil != err {
