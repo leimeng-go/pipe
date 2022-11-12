@@ -9,7 +9,7 @@ FROM golang:alpine as GO_BUILD
 WORKDIR /go/src/github.com/leimeng-go/pipe/
 COPY --from=NODE_BUILD /go/src/github.com/leimeng-go/pipe/ /go/src/github.com/leimeng-go/pipe/
 ENV GO111MODULE=on
-ENV GOPROXY=https://goproyx.cn
+ENV GOPROXY=https://goproxy.cn
 RUN apk add --no-cache gcc musl-dev git && go build -i -v
 
 FROM alpine:latest
