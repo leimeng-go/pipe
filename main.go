@@ -39,14 +39,20 @@ var logger *gulu.Logger
 
 // The only one init function in pipe.
 func init() {
+	//随机数种子初始化
 	rand.Seed(time.Now().UTC().UnixNano())
 
+	//设置日志登记
 	gulu.Log.SetLevel("debug")
 	logger = gulu.Log.NewLogger(os.Stdout)
 
+	//加载配置文件
 	model.LoadConf()
+	//初始化国际化数据
 	i18n.Load()
+	//检查主题并打印主题数量
 	theme.Load()
+	//替换前端相关文件
 	replaceServerConf()
 
 	if "dev" == model.Conf.RuntimeMode {
@@ -59,6 +65,7 @@ func init() {
 
 // Entry point.
 func main() {
+	//gorm数据库
 	service.ConnectDB()
 	service.Upgrade.Perform()
 	cron.Start()
