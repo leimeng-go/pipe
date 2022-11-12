@@ -1,6 +1,7 @@
-FROM node:10.15.3 as NODE_BUILD
+FROM node:14.20.1 as NODE_BUILD
 WORKDIR /go/src/github.com/leimeng-go/pipe/
 ADD . /go/src/github.com/leimeng-go/pipe/
+RUN npm config set registry https://registry.npm.taobao.org
 RUN cd console && npm install && npm run build && cd ../theme && npm install && npm run build && \
     rm -rf node_modules && cd ../console && rm -rf node_modules
 
